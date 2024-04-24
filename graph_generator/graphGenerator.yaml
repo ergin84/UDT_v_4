@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: graphgenerator
+spec:
+  containers:
+  - name: graphgenerator
+    image: erginmehmeti/graph_generator:1.0
+    imagePullPolicy: IfNotPresent
+    resources:
+      limits:
+        cpu: "1"
+        memory: "1Gi"
