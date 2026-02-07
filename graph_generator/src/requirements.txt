@@ -19,7 +19,7 @@ executing==2.0.1
 fastjsonschema==2.19.0
 fiona==1.9.5
 fqdn==1.5.1
-geopandas==0.14.1
+geopandas==1.1.2
 idna==3.4
 influxdb-client==1.37.0
 isodate==0.6.1
